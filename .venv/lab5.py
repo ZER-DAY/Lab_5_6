@@ -21,7 +21,7 @@ df.set_index('Month', inplace=True)  # Setting the 'Month' column as the index
 # عرض البيانات الزمنية
 plt.figure(figsize=(10, 6))
 plt.plot(df, label='Количество пассажиров')
-plt.title("Количество авиапассажиров по месяцам")  # Title in Russian
+plt.title("Количество авиапассажиров по месяцам")  
 # العنوان مكتوب باللغة الروسية
 plt.xlabel("Дата")  # X-axis label in Russian
 # عنوان المحور X باللغة الروسية
@@ -89,7 +89,7 @@ plt.plot(df['Passengers'], label='Исходные данные')  # Original da
 plt.plot(forecast_index, forecast_values, color='red', label='Прогноз ARIMA на 10 лет')  
 # Forecast label in Russian
 # التسمية باللغة الروسية
-plt.title("Прогноз количества авиапассажиров на 10 лет вперед")  # Title in Russian
+plt.title("Прогноз количества авиапассажиров на 10 лет вперед")  # 
 # العنوان مكتوب باللغة الروسية
 plt.xlabel("Дата")  # X-axis label in Russian
 # عنوان المحور X باللغة الروسية
@@ -122,7 +122,7 @@ plt.plot(df['Passengers'], label='Исходные данные')  # Original da
 plt.plot(forecast_index, forecast_values, color='red', label='Прогноз SARIMA на 10 лет')  
 # SARIMA forecast label in Russian
 # التسمية باللغة الروسية
-plt.title("Прогноз количества авиапассажиров на 10 лет вперед (SARIMA)")  # Title in Russian
+plt.title("Прогноз количества авиапассажиров на 10 лет вперед (SARIMA)")  # 
 # العنوان مكتوب باللغة الروسية
 plt.xlabel("Дата")  # X-axis label in Russian
 # عنوان المحور X باللغة الروسية
