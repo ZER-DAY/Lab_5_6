@@ -43,7 +43,7 @@ print(f"p-value: {result[1]}")
 df_log = np.log(df['Passengers'])
 
 # 2. Calculating moving average with a 12-month window and subtracting it
-# 2. حساب المتوسط المتحرك بفترة 12 شهرًا وطرحه
+it# 2. حساب المتوسط المتحرك بفترة 12 شهرًا وطرحه
 moving_avg = df_log.rolling(window=12).mean()
 df_log_moving_avg_diff = df_log - moving_avg
 df_log_moving_avg_diff.dropna(inplace=True)  # Removing NaN values
